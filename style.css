@@ -602,3 +602,88 @@ body {
     align-items: flex-start;
   }
 }
+.ambulance-card {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.ambulance-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.ambulance-card h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.ambulance-card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.book-now-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #c0392b;
+}
+.health-tips-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.health-tip-card {
+  background-color: #f4f2ff;
+  border-radius: 12px;
+  width: 140px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.health-tip-card:hover {
+  transform: scale(1.05);
+}
+
+.health-tip-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.health-tip-card p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.health-tip-card a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.health-tip-card a:hover {
+  text-decoration: underline;
+}
