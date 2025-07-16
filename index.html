@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>RevMediBD</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -96,21 +86,21 @@
         <img src="https://img.freepik.com/free-photo/doctor-consulting-patient-online_23-2148909037.jpg" alt="Telehealth Benefits">
         <h3>Why Telehealth Is Changing Modern Healthcare</h3>
         <p>Explore how virtual care is improving access and convenience for patients across the country.</p>
-        <a href="#" class="read-more">Read More →</a>
+         <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11298029/" target="_blank">Read More →</a>
       </article>
 
       <article class="article-card">
         <img src="https://img.freepik.com/free-photo/young-woman-having-virtual-call-with-doctor_23-2149171147.jpg" alt="Mental Health">
         <h3>Managing Mental Health: Tips for a Balanced Life</h3>
         <p>Learn practical techniques to reduce stress and improve your emotional well-being.</p>
-        <a href="#" class="read-more">Read More →</a>
+         <a href="https://www.sajida.org/sajidas-approach/fostering-equity/mental-health/" target="_blank">Read More →</a>
       </article>
 
       <article class="article-card">
         <img src="https://img.freepik.com/free-photo/nutritionist-holding-apple_23-2148493770.jpg" alt="Nutrition Advice">
         <h3>Healthy Eating: What Every Patient Should Know</h3>
         <p>From balanced diets to portion control — your guide to everyday nutrition tips from our experts.</p>
-        <a href="#" class="read-more">Read More →</a>
+        <a href="https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/bangladesh/en/" target="_blank">Read More →</a>
       </article>
     </div>
   </div>
@@ -153,6 +143,9 @@
 
 </body>
 </html>
+
+
+
 <!-- Section 5: Promo Video -->
 <section class="promo-video">
   <div class="container promo-content">
@@ -170,34 +163,50 @@
 <section class="popular-topics">
   <div class="container">
     <h2 class="section-title">Popular Health Topics</h2>
-    <div class="topics-grid">
-      <a href="#" class="topic-card">
-        <img src="https://img.icons8.com/ios-filled/100/0078d4/coronavirus.png" alt="Covid-19">
-        <span>Covid-19</span>
-      </a>
-      <a href="#" class="topic-card">
-        <img src="https://img.icons8.com/ios-filled/100/0078d4/diabetes.png" alt="Diabetes">
-        <span>Diabetes</span>
-      </a>
-      <a href="#" class="topic-card">
-        <img src="https://img.icons8.com/ios-filled/100/0078d4/heart-health.png" alt="Heart Disease">
-        <span>Heart Disease</span>
-      </a>
-      <a href="#" class="topic-card">
-        <img src="https://img.icons8.com/ios-filled/100/0078d4/brain.png" alt="Mental Health">
-        <span>Mental Health</span>
-      </a>
-      <a href="#" class="topic-card">
-        <img src="https://img.icons8.com/ios-filled/100/0078d4/pregnant.png" alt="Women's Health">
-        <span>Women's Health</span>
-      </a>
-      <a href="#" class="topic-card">
-        <img src="https://img.icons8.com/ios-filled/100/0078d4/exercise.png" alt="Fitness">
-        <span>Fitness</span>
-      </a>
-    </div>
+   <div class="health-tips-container">
+  <div class="health-tip-card">
+    <img src="https://img.icons8.com/ios-filled/50/coronavirus.png" alt="Covid-19">
+    <p><a href="https://dashboard.dghs.gov.bd/pages/covid19.php" target="_blank">Covid-19</a></p>
   </div>
+
+   <div class="health-tip-card">
+    <img src="https://img.icons8.com/ios-filled/50/insulin-pen.png" alt="Diabetes">
+    <p><a href="https://www.dab-bd.org/" target="_blank">Diabetes</a></p>
+  </div>
+
+  <div class="health-tip-card">
+    <img src="https://img.icons8.com/ios-filled/50/like--v1.png" alt="Heart Disease">
+    <p><a href="https://iph.gov.bd/" target="_blank">Heart Disease</a></p>
+  </div>
+
+  <div class="health-tip-card">
+    <img src="https://img.icons8.com/ios-filled/50/brain.png" alt="Mental Health">
+    <p><a href="https://iph.gov.bd/" target="_blank">Mental Health</a></p>
+  </div>
+
+  <div class="health-tip-card">
+    <img src="https://img.icons8.com/ios-filled/50/pregnant.png" alt="Women's Health">
+    <p><a href="https://www.dghs.gov.bd/" target="_blank">Women's Health</a></p>
+  </div>
+
+  <div class="health-tip-card">
+    <img src="https://img.icons8.com/ios-filled/50/running.png" alt="Fitness">
+    <p><a href="https://www.dghs.gov.bd/" target="_blank">Fitness</a></p>
+  </div>
+</div>
+
+        
+
 </section>
+<div class="ambulance-card">
+  <img src="https://ambufast.com/assets/img/logo.png" alt="AmbuFast Logo" class="ambulance-logo">
+  <h2>AmbuFast Ambulance Service</h2>
+  <p>
+    Book 24/7 Ambulance Service in Bangladesh — ICU, CCU, AC, Non-AC & Air Ambulances. Fast, reliable, and nationwide.
+  </p>
+  <a href="https://ambufast.com" target="_blank" class="book-now-button">🚑 Book Now</a>
+</div>
+
 <!-- Section 7: Newsletter Signup -->
 <section class="newsletter">
   <div class="container newsletter-box">
@@ -245,7 +254,10 @@
     <p>© 2025 RevMediBD. All rights reserved.</p>
   </div>
 </footer>
-<!-- partial -->
-  
-</body>
-</html>
+<form id="newsletter-form" method="POST" action="/subscribe">
+  <input type="email" name="email" required>
+  <button type="submit">Subscribe</button>
+</form>
+
+<button id="join-now">Join Now</button>
+<button class="btn-topic">Diabetes</button>
