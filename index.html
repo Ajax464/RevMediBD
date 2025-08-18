@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RevMedBD | Online Healthcare</title>
   <link rel="stylesheet" href="styles/style.css" />
+  <style>
+    /* Add smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <!-- Header and Hero Section -->
@@ -13,89 +19,70 @@
       <img src="https://gravitywrite.sgp1.digitaloceanspaces.com/images/img_3647453_2025_07_05_09_51_18.png" alt="RevMedBD Logo" class="logo" />
       <nav class="nav">
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Doctors</a></li>
-          <li><a href="#">Articles</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a href="#" class="cta-button">Get Care Now</a>
+      <a href="#contact" class="cta-button">Get Care Now</a>
     </div>
 
     <div class="hero">
       <div class="hero-content">
         <h1>Your Health, Our Mission</h1>
         <p>Trusted Online Healthcare, Anytime – Get medical advice, prescriptions, and more from certified professionals.</p>
-       <!-- bdcare-booking-button.html -->
-<a href="https://www.bd.care/book-appointment" target="_blank" class="bdcare-button">
-  Get An Appointment
-</a>
-
+        <!-- bdcare-booking-button.html -->
+        <a href="https://www.bd.care/book-appointment" target="_blank" class="bdcare-button">
+          Get An Appointment
+        </a>
       </div>
     </div>
   </header>
-</body>
-</html>
-<!-- Section 2: Services -->
-<!-- Section 2: Services -->
-<section class="services">
-  <div class="container">
-    <h2 class="section-title">Our Services</h2>
-    <div class="service-grid">
-      <!-- Service Card 1: Telemedicine -->
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios-filled/100/0078d4/stethoscope.png" alt="Telemedicine">
-        <h3>Telemedicine</h3>
-        <p>Consult with certified doctors via video anytime, anywhere.</p>
-        <a href="https://bddoctors24.com" target="_blank" class="telemedicine-button">
-          Visit BDDoctors24
-        </a>
+
+  <!-- Section 2: Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios-filled/100/0078d4/stethoscope.png" alt="Telemedicine">
+          <h3>Telemedicine</h3>
+          <p>Consult with certified doctors via video anytime, anywhere.</p>
+          <a href="https://bddoctors24.com" target="_blank" class="telemedicine-button">
+            Visit BDDoctors24
+          </a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios-filled/100/0078d4/pill.png" alt="Prescription Refill">
+          <h3>Prescription Refill</h3>
+          <p>Order your medicines online and get them delivered to your doorstep securely.</p>
+          <a href="https://www.arogga.com" target="_blank" class="telemedicine-button">
+            Visit Arogga
+          </a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios-filled/100/0078d4/medical-history.png" alt="Health Records">
+          <h3>Health Records</h3>
+          <p>Securely store and access your digital health records anytime from any device.</p>
+          <a href="https://cmed.com.bd" target="_blank" class="telemedicine-button">
+            Visit CMED Health
+          </a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios-filled/100/0078d4/doctor-male.png" alt="Talk to a Doctor">
+          <h3>Talk to a Doctor</h3>
+          <p>Get instant advice from licensed doctors via chat, audio, or video call.</p>
+          <a href="https://www.doctime.com.bd/consultation" target="_blank" class="telemedicine-button">
+            Visit DocTimeBD
+          </a>
+        </div>
       </div>
-<!-- Service Card 2: Prescription Refill -->
-<div class="service-card">
-  <img src="https://img.icons8.com/ios-filled/100/0078d4/pill.png" alt="Prescription Refill">
-  <h3>Prescription Refill</h3>
-  <p>Order your medicines online and get them delivered to your doorstep securely.</p>
-  <a href="https://www.arogga.com" target="_blank" class="telemedicine-button">
-    Visit Arogga
-  </a>
-</div>
-     <!-- Service Card 3: Health Records -->
-<div class="service-card">
-  <img src="https://img.icons8.com/ios-filled/100/0078d4/medical-history.png" alt="Health Records">
-  <h3>Health Records</h3>
-  <p>Securely store and access your digital health records anytime from any device.</p>
-  <a href="https://cmed.com.bd" target="_blank" class="telemedicine-button">
-    Visit CMED Health
-  </a>
-</div>
- <!-- Service Card 4: Talk to a Doctor -->
-<div class="service-card">
-  <img src="https://img.icons8.com/ios-filled/100/0078d4/doctor-male.png" alt="Talk to a Doctor">
-  <h3>Talk to a Doctor</h3>
-  <p>Get instant advice from licensed doctors via chat, audio, or video call.</p>
-  <a href="https://hellodoctorbd.com" target="_blank" class="telemedicine-button">
-    Visit HelloDoctorBD
-  </a>
-</div>
-
-
-      <!-- You can add more service cards here -->
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Section 3: Health Categories -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Explore Health Topics</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="topics-container">
+  <!-- Section 3: Doctors -->
+  <section id="doctors" class="topics-container">
     <h2>Explore Health Topics</h2>
     <div class="button-group">
       <a href="https://www.kaanpeteroi.org" target="_blank" class="topic-button">Mental Health</a>
@@ -107,38 +94,296 @@
       <a href="https://www.icddrb.org" target="_blank" class="topic-button">Child Care</a>
       <a href="https://fitnessbd.net/" target="_blank" class="topic-button">Fitness</a>
     </div>
-  </div>
-</body>
-</html>
+  </section>
 
-<!-- Section 4: Latest Health Articles -->
-<section class="health-articles">
+<!-- Doctor Search & Specialists Section -->
+<section class="doctors-section" id="doctor-search">
   <div class="container">
-    <h2 class="section-title">Latest from RevMediBD</h2>
-    <div class="articles-grid">
-      <article class="article-card">
-        <img src="https://img.freepik.com/free-photo/doctor-consulting-patient-online_23-2148909037.jpg" alt="Telehealth Benefits">
-        <h3>Why Telehealth Is Changing Modern Healthcare</h3>
-        <p>Explore how virtual care is improving access and convenience for patients across the country.</p>
-         <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11298029/" target="_blank">Read More →</a>
-      </article>
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="doctorSearch" placeholder="Search by doctor name, code or department">
+      <button><img src="https://img.icons8.com/ios-filled/24/000000/search.png" alt="search"></button>
+    </div>
 
-      <article class="article-card">
-        <img src="https://img.freepik.com/free-photo/young-woman-having-virtual-call-with-doctor_23-2149171147.jpg" alt="Mental Health">
-        <h3>Managing Mental Health: Tips for a Balanced Life</h3>
-        <p>Learn practical techniques to reduce stress and improve your emotional well-being.</p>
-         <a href="https://www.sajida.org/sajidas-approach/fostering-equity/mental-health/" target="_blank">Read More →</a>
-      </article>
+    <!-- Section Title -->
+    <h2 class="section-title">Popular Specialists</h2>
+    <div class="doctor-grid" id="doctorList">
+ <!-- Horizontal Scroll Container -->
+   <div class="doctor-scroll-wrapper">
+    
+      <div class="doctor-scroll" id="doctorList">
+        
+      <!-- Doctor Card -->
+      <div class="doctor-card" data-name="Mithun Sarker" data-code="DOC1001" data-department="Pediatrics Child Specialist">
+        <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/207431/profile_photos/8WLTHV8b1x1XMfn9nByeNdUeDPqVguIrJayOZ7jz.png" alt="Dr. Mithun Sarker">
+        <h3>Dr. Mithun Sarker</h3>
+        <p class="degree">MBBS, BCS (Health), DCH (Pediatrics)</p>
+        <span class="specialty">Child Specialist</span>
+        <div class="rating">⭐ 5 (2327)</div>
+        <p><b>11+ Years</b> Experience</p>
+        <p class="fee">৳400</p>
+        <a href="https://www.doctime.com.bd/doctors/dr-mithun-sarker-166096" class="see-doctor">See Doctor →</a>
+      </div>
 
-      <article class="article-card">
-        <img src="https://img.freepik.com/free-photo/nutritionist-holding-apple_23-2148493770.jpg" alt="Nutrition Advice">
-        <h3>Healthy Eating: What Every Patient Should Know</h3>
-        <p>From balanced diets to portion control — your guide to everyday nutrition tips from our experts.</p>
-        <a href="https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/bangladesh/en/" target="_blank">Read More →</a>
-      </article>
+      <!-- Doctor Card -->
+      <div class="doctor-card" data-name="Maria Seraj" data-code="DOC1002" data-department="Dermatology Skin Specialist">
+        <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/627265/profile_photos/YOhcf41xolNNaYTkhhhoOKWNe3WkoVXugkme2JZP.jpg" alt="Dr. Maria Seraj">
+        <h3>Dr. Maria Seraj</h3>
+        <p class="degree">MBBS, BCS (Health), DDV, MCPS (Dermatology)</p>
+        <span class="specialty">Dermatologist</span>
+        <div class="rating">⭐ 5 (785)</div>
+        <p><b>11+ Years</b> Experience</p>
+        <p class="fee">৳500</p>
+        <a href="https://www.doctime.com.bd/doctors/dr-maria-seraj-521543" class="see-doctor">See Doctor →</a>
+      </div>
+
+      <!-- Doctor Card -->
+  
+<div class="doctor-card">
+        <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/102929/profile_photos/TmEI0llKvxlmFqIOEfPNzmioDMwK7XcR1KdgbpFU.png" alt="Dr. Shafiul Quadry">
+        <h3>Dr. Shafiul Quadry</h3>
+        <p class="degree">MBBS,BCS (Health),MRCP (Internal Medicine) (UK),MD (Pulmonology) </p>
+        <span class="specialty">Medicine Specialist,</span> <span class="specialty">
+Pulmonologist</span>
+        <div class="rating">⭐ 5 (965))</div>
+        <p><b>10+ Years</b> Experience</p>
+        <p class="fee"><del>৳950</del> <b>৳700</b></p>
+        <a href="https://www.doctime.com.bd/doctors/dr-shafiul-quadry-84292" class="see-doctor">See Doctor →</a>
+      </div>
+        
+           <div class="doctor-card" data-name="Rezowana Afrin" data-code="DOC1004" data-department="Gynecology Obstetrics">
+          <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/556415/profile_photos/GIpEZ9zdyETvfwFNGH53KByS2OsHcG5CepAtD6FT.png" alt="Dr. Rezowana Afrin">
+          <h3>Dr. Rezowana Afrin</h3>
+          <p class="degree">MBBS, BCS (Health), MRCOG (UK), MCPS, FCPS</p>
+          <span class="specialty">Gynecologist & Obstetrician</span>
+          <div class="rating">⭐ 5 (812)</div>
+          <p><b>12+ Years</b> Experience</p>
+          <p class="fee">৳600</p>
+          <a href="https://www.doctime.com.bd/doctors/dr-rezowana-afrin-465380" class="see-doctor">See Doctor →</a>
+        </div>
+
+        <div class="doctor-card" data-name="Jasmin Ara Zaman" data-code="DOC1005" data-department="Gynecology Obstetrics">
+          <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/4198748/profile_photos/Dfer6UyLt7wTtjVhZg1vWBzEUjGqMpD6SzVNNgH3.png" alt="Dr. Jasmin Ara Zaman">
+          <h3>Dr. Jasmin Ara Zaman</h3>
+          <p class="degree">MBBS, Diploma (Gynae & Obs), FCPS</p>
+          <span class="specialty">Gynecologist & Obstetrician</span>
+          <div class="rating">⭐ 5 (996)</div>
+          <p><b>19+ Years</b> Experience</p>
+          <p class="fee">৳400</p>
+          <a href="https://www.doctime.com.bd/doctors/dr-jasmin-ara-zaman-4112400" class="see-doctor">See Doctor →</a>
+        </div>
+
+        <div class="doctor-card" data-name="Amrita Lal Halder" data-code="DOC1006" data-department="Pediatrics Child Specialist">
+          <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/432009/profile_photos/P9GeLwc3g6c8txuC7gEW6UrncMpsCq8WTB2zxXnL.png" alt="Assoc. Prof. Dr. Amrita Lal Halder">
+          <h3>Assoc. Prof. Dr. Amrita Lal Halder</h3>
+          <p class="degree">MBBS, FCPS (Pediatrics)</p>
+          <span class="specialty">Child Specialist</span>
+          <div class="rating">⭐ 4.9 (658)</div>
+          <p><b>18+ Years</b> Experience</p>
+          <p class="fee">৳1000</p>
+          <a href="https://www.doctime.com.bd/doctors/assoc-prof-dr-amrita-lal-halder-361766" class="see-doctor">See Doctor →</a>
+        </div>
+
+        <div class="doctor-card" data-name="Asaduzzaman Rajib" data-code="DOC1007" data-department="Urology">
+          <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/141473/profile_photos/k5JgbrNewzLRSBKIuTC1Fy2GkbSIFK0rwDrIkVlp.png" alt="Dr. MD. Asaduzzaman Rajib">
+          <h3>Dr. MD. Asaduzzaman Rajib</h3>
+          <p class="degree">MBBS, BCS (Health), MS (Urology)</p>
+          <span class="specialty">Urologist</span>
+          <div class="rating">⭐ 5 (960)</div>
+          <p><b>15+ Years</b> Experience</p>
+          <p class="fee">৳500</p>
+          <a href="https://www.doctime.com.bd/doctors/dr-md-asaduzzaman-rajib-113586" class="see-doctor">See Doctor →</a>
+        </div>
+
+        <div class="doctor-card" data-name="Rajib Dutta" data-code="DOC1008" data-department="Gastroenterology">
+          <img src="https://doctime-core-ap-southeast-1.s3.ap-southeast-1.amazonaws.com/persons/178272/profile_photos/Kh4Qs3AfHuevqvBq0oASMNW2CoFTkQU6YlxZzrUw.jpg" alt="Dr. Rajib Dutta">
+          <h3>Dr. Rajib Dutta</h3>
+          <p class="degree">MBBS, MD (Gastroenterology)</p>
+          <span class="specialty">Gastroenterologist</span>
+          <div class="rating">⭐ 4.9 (421)</div>
+          <p><b>14+ Years</b> Experience</p>
+          <p class="fee">৳630</p>
+          <a href="https://www.doctime.com.bd/doctors/dr-rajib-dutta-141971" class="see-doctor">See Doctor →</a>
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>
+
+<style>
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Scroll Wrapper */
+.doctor-scroll-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.scroll-btn {
+  background: #0078d4;
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+.scroll-btn.left {
+  position: absolute;
+  left: 0;
+}
+.scroll-btn.right {
+  position: absolute;
+  right: 0;
+}
+
+/* Horizontal Scroll */
+.doctor-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 40px; /* so arrows don’t overlap */
+  scroll-snap-type: x mandatory;
+}
+.doctor-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Doctor Card */
+.doctor-card {
+  flex: 0 0 250px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  text-align: center;
+  transition: 0.3s;
+}
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.doctor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.doctor-card h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.doctor-card .degree {
+  font-size: 14px;
+  color: #666;
+}
+.doctor-card .specialty {
+  display: inline-block;
+  margin: 6px 0;
+  padding: 4px 8px;
+  background: #0078d4;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.doctor-card .rating {
+  margin: 5px 0;
+  font-weight: bold;
+}
+.doctor-card .fee {
+  font-size: 16px;
+  color: #0078d4;
+  margin: 6px 0;
+}
+.see-doctor {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: bold;
+}
+</style>
+
+
+<script>
+// Live Search
+document.getElementById("doctorSearch").addEventListener("keyup", function () {
+  let input = this.value.toLowerCase();
+  let cards = document.querySelectorAll(".doctor-card");
+
+  cards.forEach(card => {
+    let name = card.getAttribute("data-name").toLowerCase();
+    let code = card.getAttribute("data-code").toLowerCase();
+    let department = card.getAttribute("data-department").toLowerCase();
+
+    if (name.includes(input) || code.includes(input) || department.includes(input)) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+});
+
+// Scroll Function
+function scrollDoctors(direction) {
+  const container = document.getElementById("doctorList");
+  const cardWidth = container.querySelector(".doctor-card").offsetWidth + 20; // card + gap
+  container.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
+}
+</script>
+
+
+  <!-- Section 4: Articles -->
+  <section id="articles" class="health-articles">
+    <div class="container">
+      <h2 class="section-title">Latest from RevMediBD</h2>
+      <div class="articles-grid">
+        <article class="article-card">
+          <img src="https://img.freepik.com/free-photo/doctor-consulting-patient-online_23-2148909037.jpg" alt="Telehealth Benefits">
+          <h3>Why Telehealth Is Changing Modern Healthcare</h3>
+          <p>Explore how virtual care is improving access and convenience for patients across the country.</p>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11298029/" target="_blank">Read More →</a>
+        </article>
+        <article class="article-card">
+          <img src="https://img.freepik.com/free-photo/young-woman-having-virtual-call-with-doctor_23-2149171147.jpg" alt="Mental Health">
+          <h3>Managing Mental Health: Tips for a Balanced Life</h3>
+          <p>Learn practical techniques to reduce stress and improve your emotional well-being.</p>
+          <a href="https://www.sajida.org/sajidas-approach/fostering-equity/mental-health/" target="_blank">Read More →</a>
+        </article>
+        <article class="article-card">
+          <img src="https://img.freepik.com/free-photo/nutritionist-holding-apple_23-2148493770.jpg" alt="Nutrition Advice">
+          <h3>Healthy Eating: What Every Patient Should Know</h3>
+          <p>From balanced diets to portion control — your guide to everyday nutrition tips from our experts.</p>
+          <a href="https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/bangladesh/en/" target="_blank">Read More →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- Section 5: Arogga Online Pharmacy -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -178,9 +423,7 @@
 </body>
 </html>
 
-
-
-<!-- Section 5: Promo Video -->
+<!-- Section 6: promo-video -->
 <section class="promo-video">
   <div class="container promo-content">
     <div class="promo-text">
@@ -193,8 +436,9 @@
     </div>
   </div>
 </section>
-<!-- Section 6: Popular Health Topics -->
-<section class="popular-topics">
+
+  <!-- Section 7: popular-topics -->
+  <section class="popular-topics">
   <div class="container">
     <h2 class="section-title">Popular Health Topics</h2>
    <div class="health-tips-container">
@@ -228,12 +472,11 @@
     <p><a href="https://www.dghs.gov.bd/" target="_blank">Fitness</a></p>
   </div>
 </div>
-
-        
-
-</section>
+    
+   <!-- Section 8: ambulance-card -->
+    </section>
 <div class="ambulance-card">
-  <img src="https://ambufast.com/assets/img/logo.png" alt="AmbuFast Logo" class="ambulance-logo">
+  <img src=https://www.shutterstock.com/shutterstock/photos/2403135027/display_1500/stock-vector-ambulance-car-in-cartoon-style-for-kids-medical-transport-isolated-on-white-background-emergency-2403135027.jpg alt="AmbuFast Logo" class="ambulance-logo">
   <h2>AmbuFast Ambulance Service</h2>
   <p>
     Book 24/7 Ambulance Service in Bangladesh — ICU, CCU, AC, Non-AC & Air Ambulances. Fast, reliable, and nationwide.
@@ -241,57 +484,53 @@
   <a href="https://ambufast.com" target="_blank" class="book-now-button">🚑 Book Now</a>
 </div>
 
-<!-- Section 7: Newsletter Signup -->
-<section class="newsletter">
-  <div class="container newsletter-box">
-    <div class="newsletter-text">
-      <h2>Stay Updated with RevMediBD</h2>
-      <p>Subscribe to receive the latest health tips, updates, and offers — straight to your inbox.</p>
+  <!-- Section 9: Contact -->
+  <section id="contact" class="newsletter">
+    <div class="container newsletter-box">
+      <div class="newsletter-text">
+        <h2>Stay Updated with RevMediBD</h2>
+        <p>Subscribe to receive the latest health tips, updates, and offers — straight to your inbox.</p>
+      </div>
+      <form class="newsletter-form" action="#" method="POST">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
     </div>
-    <form class="newsletter-form" action="#" method="POST">
-      <input type="email" placeholder="Enter your email" required />
-      <button type="submit">Subscribe</button>
-    </form>
-  </div>
-</section>
-<!-- Section 8: Footer -->
-<footer class="footer">
-  <div class="container footer-content">
-    <div class="footer-left">
-      <img src="https://gravitywrite.sgp1.digitaloceanspaces.com/images/img_3647453_2025_07_05_09_51_18.png" alt="RevMedBD Logo" class="footer-logo" />
-      <p>Your trusted online healthcare partner. Accessible. Reliable. Affordable.</p>
-    </div>
+  </section>
 
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Doctors</a></li>
-        <li><a href="#">Articles</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <img src="https://gravitywrite.sgp1.digitaloceanspaces.com/images/img_3647453_2025_07_05_09_51_18.png" alt="RevMedBD Logo" class="footer-logo" />
+        <p>Your trusted online healthcare partner. Accessible. Reliable. Affordable.</p>
+      </div>
 
-    <div class="footer-contact">
-      <h4>Contact Us</h4>
-      <p>Email: support@revmedbd.com</p>
-      <p>Phone: +880 1234 567890</p>
-      <div class="social-icons">
-        <a href="#"><img src="https://img.icons8.com/ios-filled/24/0078d4/facebook-new.png" alt="Facebook" /></a>
-        <a href="#"><img src="https://img.icons8.com/ios-filled/24/0078d4/twitter.png" alt="Twitter" /></a>
-        <a href="#"><img src="https://img.icons8.com/ios-filled/24/0078d4/instagram-new.png" alt="Instagram" /></a>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: support@revmedbd.com</p>
+        <p>Phone: +880 1234 567890</p>
+        <div class="social-icons">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/0078d4/facebook-new.png" alt="Facebook" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/0078d4/twitter.png" alt="Twitter" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/0078d4/instagram-new.png" alt="Instagram" /></a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2025 RevMediBD. All rights reserved.</p>
-  </div>
-</footer>
-<form id="newsletter-form" method="POST" action="/subscribe">
-  <input type="email" name="email" required>
-  <button type="submit">Subscribe</button>
-</form>
-
-<button id="join-now">Join Now</button>
-<button class="btn-topic">Diabetes</button>
+    <div class="footer-bottom">
+      <p>© 2025 RevMediBD. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
